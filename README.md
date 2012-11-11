@@ -23,3 +23,10 @@ jQuery: http://jquery.com/ -- tested with v1.8.2.
 A browser that supports canvas. Tested in Firefox 16 and Internet Explorer 9.
 It doesn't do anything very fancy with canvas and so should work in other
 browsers.
+
+Contact
+-------
+Project page is at: http://ryanwmoore.github.com/jquery-imgsimilarity/
+Bug tracker: http://github.com/ryanwmoore/jquery-imgsimilarity/issues
+
+Please use the bug tracker to report any issues/bugs/problems.
