@@ -4,29 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>jquery-imgsimilarity by ryanwmoore</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>jquery-imgsimilarity</h1>
         <p>A simple jQuery library to enable client-side image similarity comparisons.</p>
-
-        <p class="view"><a href="https://github.com/ryanwmoore/jquery-imgsimilarity">View the Project on GitHub <small>ryanwmoore/jquery-imgsimilarity</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/ryanwmoore/jquery-imgsimilarity/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/ryanwmoore/jquery-imgsimilarity/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/ryanwmoore/jquery-imgsimilarity">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/ryanwmoore/jquery-imgsimilarity" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/ryanwmoore/jquery-imgsimilarity/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/ryanwmoore/jquery-imgsimilarity/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         <h1>jQuery imgsimilarity</h1>
 
@@ -35,7 +46,7 @@
 <p>This jQuery library enables image similarity calculations. It uses a histogram
 based approach to calculate how similar images are. It is rather simple and
 examines only R, G, B values but, nevertheless, be careful when using it on
-many images or large images (especially on mobile devices) -- as it may be
+many images or large images (especially on mobile devices), as it may be
 slow. The calculation is done once and requires little memory.</p>
 
 <h2>Usage</h2>
@@ -46,7 +57,8 @@ this.</p>
 
 <h2>Requirements</h2>
 
-<p>jQuery: <a href="http://jquery.com/">http://jquery.com/</a> -- tested with v1.8.2.</p>
+<p>jQuery: <a href="http://jquery.com/">http://jquery.com/</a>
+Tested with v1.8.2.</p>
 
 <p>A browser that supports canvas. Tested in Firefox 16 and Internet Explorer 9.
 It doesn't do anything very fancy with canvas and so should work in other
@@ -68,7 +80,8 @@ browsers.</p>
 
 <p>There is a demo.html file included. Please consult that for an example of using
 the library. The images used in the demo are taken from <a href="http://pdphoto.org">http://pdphoto.org</a> and
-are in the public domain.</p>
+are in the public domain. You can try the demo for yourself at
+<a href="http://ryanwmoore.github.com/jquery-imgsimilarity/demo.html">http://ryanwmoore.github.com/jquery-imgsimilarity/demo.html</a></p>
 
 <h2>License</h2>
 
@@ -102,11 +115,11 @@ of the authors and should not be interpreted as representing official policies,
 either expressed or implied, of Ryan W. Moore.</p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/ryanwmoore">ryanwmoore</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>Project maintained by <a href="https://github.com/ryanwmoore">ryanwmoore</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
