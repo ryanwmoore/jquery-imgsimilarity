@@ -40,6 +40,14 @@
 
     <div id="controls">
         <div>
+            <p>This is the demo for the <a
+            href="http://ryanwmoore.github.com/jquery-imgsimilarity/">jQuery
+            imgSimilarity plugin</a>. It requires a browser that supports the
+            canvas element. Please note that the images used in this demo are
+            rather large and so, the page may initially load slowly. If you
+            choose to use this library, I would recommend using smaller
+            images.</p>
+
             <p>Use the slider below to set the amount of required similarity.
             Images which are not similar enough will not be shown. For this
             plugin, similarity means similar colors. Shape similarities and
@@ -101,7 +109,7 @@
                 catalog.append(image);
 
                 //jQuery UI Accordion to show results
-                results.append($("<h3/>").text(value));
+                results.append($("<h3/>").text(value + "'s similar images"));
                 matches = $("<div/>").addClass("matches").attr("id", "match"+index);
 
                 results.append(matches);
