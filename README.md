@@ -26,7 +26,9 @@ browsers.
 
 Contact
 -------
-Project page is at: http://ryanwmoore.github.com/jquery-imgsimilarity/
+Project page: http://ryanwmoore.github.com/jquery-imgsimilarity/
+
+Repository page: http://github.com/ryanwmoore/jquery-imgsimilarity/
 
 Bug tracker: http://github.com/ryanwmoore/jquery-imgsimilarity/issues
 
