@@ -1,4 +1,4 @@
-jQuery imgSimilarity
+jQuery imgsimilarity
 ====================
 
 About
